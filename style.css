@@ -14,15 +14,18 @@ body {
       color: #ebdbb2;
       display: flex;
       flex-direction: column;
-      min-height: 60ch;
-      min-width: 50ww;
+      min-height: 65ch;
+      min-width: 80ww;
       padding: 2em;
 }
-h1 {
-      font-family: 'Font Awesome 5 Free Regular';
+h3 {
       text-align: center;
-      color: #ebdbb2;
-      font-size: 100;
+}
+img {
+      border: 2px solid #1d2021;
+      width: 8em;
+      height: auto;
+      object-fit: cover;
 }
 p {
       margin: 0;
@@ -53,33 +56,6 @@ nav {
       padding: 1em 0;
 }
 
-ul:nth-child(1n) li:first-child {
-      color: #a54242;
-}
-
-ul:nth-child(2n) li:first-child {
-      color: #de935f;
-}
-
-ul:nth-child(3n) li:first-child {
-      color: #f0c674;
-}
-
-ul:nth-child(4n) li:first-child {
-      color: #8c9440;
-}
-
-ul:nth-child(5n) li:first-child {
-      color: #85678f;
-}
-
-li:first-child {
-      font-weight: bold;
-}
-
-li:last-child {
-      margin: 0 0 1em;
-}
 
 p #cursor {
       background-color: #add8e6;
@@ -119,24 +95,24 @@ list {
   width: 12em;
 }
 
-.search {
+.feed {
   background-color: #cc241d;
 }
 
-.reddit {
+.linux {
   background-color: #458588;
 }
 
-.scripting {
-  background-color: #689d6a;
+.math {
+  background-color: #b16286;
 }
 
-.math {
+.reddit {
   background-color: #d65d0e;
 }
 
-.linux {
-  background-color: #98971a;
+.scripting {
+  background-color: #555555;
 }
 
 .links {
@@ -147,4 +123,13 @@ list {
   font-weight: bold;
   background-color: #ebdbb2;
   width: 12em;
+}
+
+li:first-child {
+font-weight: bold;
+line-height: 2em;
+}
+
+ul:nth-child(1n) li:first-child {
+      color: #1d2021;
 }
