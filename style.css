@@ -1,7 +1,6 @@
 html {
       align-items: center;
       background-color: #1d2021;
-      color: #2aa198;
       display: flex;
       font: 20px/1 "Hack Nerd Font", monospace;
       height: 100%;
@@ -14,8 +13,9 @@ body {
       color: #ebdbb2;
       display: flex;
       flex-direction: column;
-      min-height: 65ch;
-      min-width: 80ww;
+      justify-content: center;
+      min-height: 60ch;
+      min-width: 40ww;
       padding: 2em;
 }
 h3 {
@@ -37,9 +37,7 @@ a {
       color: inherit;
       text-decoration: none;
 }
-
-    a:focus,
-    a:hover {
+a:focus, a:hover {
       font-weight: bold;
 }
 
@@ -118,7 +116,7 @@ list {
 .links {
   text-align: center;
   color: #282828;
-  font-family: 'Source Code', monospace;
+  font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   font-weight: bold;
   background-color: #ebdbb2;
@@ -126,10 +124,7 @@ list {
 }
 
 li:first-child {
-font-weight: bold;
-line-height: 2em;
-}
-
-ul:nth-child(1n) li:first-child {
-      color: #1d2021;
+   font-weight: bold;
+   line-height: 2em;
+   color: #1d2021;
 }
