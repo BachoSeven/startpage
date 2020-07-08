@@ -1,5 +1,5 @@
 # startpage
-A simple html page for when I startup my browser, as well as for each new tab I open. I made on it so I could use vimium in each new tab without having to use the bleak pages/blank.html alternative (see this [issue](https://github.com/philc/vimium/issues/1515) )
+A simple html page for my browser, as well as for each new tab. I made it so I could use vimium on new tabs rather than resorting to pages/blank.html (see this [issue](https://github.com/philc/vimium/issues/1515) ).
 
 # preview
 ![](startpage.gif)
