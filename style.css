@@ -9,23 +9,14 @@ html {
 body {
       background-color: #282828;
       border-radius: 2px;
-      box-shadow: 1px 1px 7px #1d1f2177;
+      box-shadow: 1px 1px 6px #1d1f2177;
       color: #ebdbb2;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      min-height: 60ch;
-      min-width: 40ww;
+      min-height: 30ch;
+      min-width: 20ww;
       padding: 2em;
-}
-h3 {
-      text-align: center;
-}
-img {
-      border: 2px solid #1d2021;
-      width: 8em;
-      height: auto;
-      object-fit: cover;
 }
 p {
       margin: 0;
@@ -33,6 +24,17 @@ p {
 p span {
       color: #b8bb26;
 }
+
+p #cursor {
+      background-color: #add8e6;
+      animation: blink 2s infinite;
+}
+@keyframes blink {
+      0% { opacity: 0; }
+      49% { opacity: 0; }
+      50% { opacity: 1; }
+}
+
 a {
       color: inherit;
       text-decoration: none;
@@ -51,25 +53,7 @@ nav {
       column-gap: 2em;
       display: grid;
       grid-template-columns: auto auto auto auto;
-      padding: 1em 0;
-}
-
-
-p #cursor {
-      background-color: #add8e6;
-      animation: blink 2s infinite;
-}
-
-@keyframes blink {
-      0% { opacity: 0; }
-      49% { opacity: 0; }
-      50% { opacity: 1; }
-}
-
-
-a {
-  color: inherit;
-  text-decoration: none;
+      padding: 1.5em 0;
 }
 
 list {
@@ -81,7 +65,7 @@ list {
   display: inline-block;
   vertical-align: top;
   align-self: center;
-  margin-left: 1em;
+  margin-left: 0.3em;
 }
 
 .all:nth-child(1) {
@@ -90,7 +74,22 @@ list {
 
 .title {
   text-align: center;
-  width: 12em;
+  width: 8em;
+}
+
+.links {
+  text-align: center;
+  color: #282828;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ebdbb2;
+  width: 8em;
+}
+
+li:first-child {
+   font-weight: bold;
+   line-height: 1.2em;
+   color: #1d2021;
 }
 
 .feed {
@@ -113,17 +112,22 @@ list {
   background-color: #555555;
 }
 
-.links {
-  text-align: center;
-  color: #282828;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: #ebdbb2;
-  width: 12em;
-}
-
-li:first-child {
-   font-weight: bold;
-   line-height: 2em;
-   color: #1d2021;
-}
+ input,
+        textarea,
+        input {
+            background: none;
+            color: #282828;
+            width: 4px;
+            font: 20px/1 "Hack Nerd Font", monospace;
+            outline: 0;
+            border: 0;
+            border-radius: 0;
+            border-bottom: 1px solid #1d2021;
+        }
+        textarea:focus,
+        input:focus {
+            color: #ebdbb2;
+            outline: 0;
+            border: 0;
+            width: 30%;
+        }
