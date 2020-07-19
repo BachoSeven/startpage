@@ -79,17 +79,14 @@ list {
 
 .links {
   text-align: center;
-  color: #282828;
+  color: #ebdbb2;
   text-decoration: none;
   font-weight: bold;
-  background-color: #ebdbb2;
   width: 8em;
 }
 
 li:first-child {
-   font-weight: bold;
    line-height: 1.2em;
-   color: #1d2021;
 }
 
 .feed {
@@ -112,22 +109,22 @@ li:first-child {
   background-color: #555555;
 }
 
- input,
-        textarea,
-        input {
-            background: none;
-            color: #282828;
-            width: 4px;
-            font: 20px/1 "Hack Nerd Font", monospace;
-            outline: 0;
-            border: 0;
-            border-radius: 0;
-            border-bottom: 1px solid #1d2021;
-        }
-        textarea:focus,
-        input:focus {
-            color: #ebdbb2;
-            outline: 0;
-            border: 0;
-            width: 30%;
-        }
+input {
+    background: none;
+    color: #282828;
+    width: 4px;
+    font: inherit;
+    font-weight: bold;
+    text-align: center;
+    outline: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #1d2021;
+}
+textarea:focus,
+input:focus {
+    color: #ebdbb2;
+    outline: 0;
+    border: 0;
+    width: 30%;
+}
