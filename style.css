@@ -1,3 +1,4 @@
+* { box-sizing: border-box; }
 html {
       align-items: center;
       background-color: #1d2021;
@@ -8,7 +9,7 @@ html {
 }
 body {
       background-color: #282828;
-      border-radius: 2px;
+      border-radius: 13px;
       box-shadow: 1px 1px 6px #1d1f2177;
       color: #ebdbb2;
       display: flex;
