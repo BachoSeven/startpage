@@ -60,6 +60,7 @@ nav {
 .all {
   display: inline-block;
   vertical-align: top;
+  margin-left: 1em;
 }
 
 .all:nth-child(1) {
