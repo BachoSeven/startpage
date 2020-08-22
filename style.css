@@ -10,7 +10,7 @@ html {
 body {
       background-color: #282828;
       border-radius: 13px;
-      box-shadow: 1px 1px 6px #1d1f2177;
+      box-shadow: 1px 1px 6px #1d1d1177;
       color: #ebdbb2;
       display: flex;
       flex-direction: column;
@@ -72,12 +72,14 @@ nav {
   width: 8em;
 }
 
-.links {
+.linksbox {
   text-align: center;
   color: #ebdbb2;
   text-decoration: none;
   font-weight: bold;
   width: 8em;
+  box-shadow: 8px 8px rgba(29, 32, 33, 0.5);
+  padding: 0.2em;
 }
 
 li:first-child {
