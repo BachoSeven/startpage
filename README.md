@@ -9,7 +9,7 @@ I made it so I could use **[Vimium](https://github.com/philc/vimium)** on a dece
 ## Search Bar
 I use Vomnibar for most searches (my own bangs > duckduckgo's), but I have added in a hidden ddg search bar (which only takes autofocus before vimium loads, so by pressing `t` and then immediately start typing).
 
-# preview
+# [preview](https://bachoseven.github.io/startpage/)
 ![](startpage.gif)
 
 ## credits
