@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 # startpage
 A simple html startpage and [new tab](https://chrome.google.com/webstore/detail/change-new-tab/mocklpfdimiadpbgamlgehpgpodggahe "new tab extension").
 
