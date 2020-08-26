@@ -13,3 +13,4 @@ I use Vomnibar for most searches (my own bangs > duckduckgo's), but I have added
 
 - https://stpg.tk/guides/terminal-like-startpage for setting up the homepage like a terminal
 - https://github.com/Hungry-Hobo/Homepage for the boxes
+- https://www.reddit.com/r/startpages/comments/f6hfoq/term_tree/ for the tree-like style.
