@@ -1,3 +1,13 @@
+:root {
+    --font: "Hack Nerd Font";
+    --background: #1d2021;
+    --foreground: #ebdbb2;
+    --pink: #b16286;
+    --red: #fb4934;
+    --orange: #d79921;
+    --branch: ;
+}
+
 html {
       box-sizing: border-box;
       align-items: center;
@@ -50,7 +60,7 @@ a:focus, a:hover {
 }
 
 ul {
-      list-style-type: none;
+      list-style: none;
       margin: 0;
       padding: 0;
 }
@@ -62,19 +72,77 @@ nav {
       padding: 1.5em 0;
 }
 
+.tree > .all {
+    margin: 0;
+    padding-left: 1rem;
+}
+
 .all {
   display: inline-block;
   vertical-align: top;
   margin-left: 1em;
+  padding-left: 0.5em;
 }
 
 .all:nth-child(1) {
   margin-left: 0;
 }
 
+li {
+  position: relative;
+}
+
+li:first-child {
+  line-height: 1.2em;
+}
+
+li::before, li::after {
+  content: "";
+  position: absolute;
+  left: -0.75rem;
+}
+
+li::before {
+  border-top: 2px solid #83a598;
+  top: 0.65rem;
+  width: 0.8rem;
+}
+
+li::after {
+   border-left: 2px solid #83a598;
+   height: 100%;
+   top: 0.25rem;
+}
+
+li:last-child::after {
+  height: 0.5rem;
+}
+
 .title {
   text-align: center;
   width: 8em;
+  margin-left: 0.2em;
+}
+
+h3 {
+  position: relative;
+}
+
+h3::before, h3::after {
+position: absolute;
+  left: -0.75rem;
+  content: "";
+}
+
+h3::before {
+  border-top: 2px solid #83a598;
+  top: 0.5rem;
+  width: 0.55em;
+}
+h3::after {
+   border-left: 2px solid #83a598;
+   height: 200%;
+   top: 0.5rem;
 }
 
 .linksbox {
@@ -87,9 +155,6 @@ nav {
   padding: 0.2em;
 }
 
-li:first-child {
-   line-height: 1.2em;
-}
 
 .feed {
   background-color: #cc241d;
