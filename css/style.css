@@ -145,8 +145,12 @@ h3::after {
   padding: 0.2em;
 }
 
-.feed {
-  background-color: #cc241d;
+.people {
+  background-color: #689d6a;
+}
+
+.git {
+  background-color: #555555;
 }
 
 .linux {
@@ -157,12 +161,12 @@ h3::after {
   background-color: #b16286;
 }
 
-.reddit {
-  background-color: #d65d0e;
+.feed {
+  background-color: #cc241d;
 }
 
-.scripting {
-  background-color: #555555;
+.reddit {
+  background-color: #d65d0e;
 }
 
 input {
