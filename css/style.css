@@ -97,20 +97,20 @@ li:last-child::after {
   height: 0.3rem;
 }
 
-h4 {
+h3 {
   position: relative;
 }
-h4::before, h4::after {
+h3::before, h3::after {
 position: absolute;
   left: -0.75rem;
   content: "";
 }
-h4::before {
+h3::before {
   border-top: 2px solid #83a598;
   top: 0.5rem;
   width: 0.6em;
 }
-h4::after {
+h3::after {
    border-left: 2px solid #83a598;
    height: 200%;
    top: 0.5rem;
@@ -132,7 +132,7 @@ h4::after {
   margin-left: 0.2em;
 }
 
-.people {
+.math {
   background-color: #689d6a;
 }
 
@@ -144,7 +144,7 @@ h4::after {
   background-color: #458588;
 }
 
-.math {
+.people {
   background-color: #b16286;
 }
 
@@ -158,19 +158,17 @@ h4::after {
 
 input {
     background: none;
-    width: 4px;
+    width: 5px;
     font: inherit;
     font-weight: bold;
     text-align: center;
     outline: none;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid #1d2021;
 }
 textarea:focus,
 input:focus {
     color: #ebdbb2;
     outline: none;
-    border: none;
     width: 30%;
 }
