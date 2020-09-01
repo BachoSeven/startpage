@@ -3,7 +3,7 @@ html {
       align-items: center;
       background-color: #1d2021;
       display: flex;
-      font: 20px/1 "Hack Nerd Font", monospace;
+      font: 19px/1 "Hack Nerd Font", monospace;
       height: 100%;
       justify-content: center;
 }
@@ -44,9 +44,6 @@ p #cursor {
 a {
       color: inherit;
       text-decoration: none;
-}
-a:focus, a:hover {
-      font-weight: bold;
 }
 
 ul {
@@ -108,12 +105,6 @@ li:last-child::after {
   height: 0.5rem;
 }
 
-.title {
-  text-align: center;
-  width: 8em;
-  margin-left: 0.2em;
-}
-
 h3 {
   position: relative;
 }
@@ -145,12 +136,18 @@ h3::after {
   padding: 0.2em;
 }
 
+.title {
+  text-align: center;
+  width: 8em;
+  margin-left: 0.2em;
+}
+
 .people {
   background-color: #689d6a;
 }
 
 .git {
-  background-color: #555555;
+  background-color: #928374;
 }
 
 .linux {
