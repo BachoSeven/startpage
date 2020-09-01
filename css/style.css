@@ -78,49 +78,39 @@ nav {
 li {
   position: relative;
 }
-
-li:first-child {
-  line-height: 1.2em;
-}
-
 li::before, li::after {
   content: "";
   position: absolute;
   left: -0.75rem;
 }
-
 li::before {
   border-top: 2px solid #83a598;
-  top: 0.65rem;
+  top: 0.45em;
   width: 0.8rem;
 }
-
 li::after {
    border-left: 2px solid #83a598;
    height: 100%;
-   top: 0.25rem;
+   top: 0.2rem;
 }
-
 li:last-child::after {
-  height: 0.5rem;
+  height: 0.3rem;
 }
 
-h3 {
+h2 {
   position: relative;
 }
-
-h3::before, h3::after {
+h2::before, h2::after {
 position: absolute;
   left: -0.75rem;
   content: "";
 }
-
-h3::before {
+h2::before {
   border-top: 2px solid #83a598;
   top: 0.5rem;
-  width: 0.55em;
+  width: 0.6em;
 }
-h3::after {
+h2::after {
    border-left: 2px solid #83a598;
    height: 200%;
    top: 0.5rem;
