@@ -97,20 +97,20 @@ li:last-child::after {
   height: 0.3rem;
 }
 
-h2 {
+h4 {
   position: relative;
 }
-h2::before, h2::after {
+h4::before, h4::after {
 position: absolute;
   left: -0.75rem;
   content: "";
 }
-h2::before {
+h4::before {
   border-top: 2px solid #83a598;
   top: 0.5rem;
   width: 0.6em;
 }
-h2::after {
+h4::after {
    border-left: 2px solid #83a598;
    height: 200%;
    top: 0.5rem;
