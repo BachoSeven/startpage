@@ -3,7 +3,7 @@ html {
       align-items: center;
       background-color: #1d2021;
       display: flex;
-      font: 19px/1 "Hack Nerd Font", monospace;
+      font: bold 18px monospace;
       height: 100%;
       justify-content: center;
 }
@@ -120,7 +120,6 @@ h3::after {
   text-align: center;
   color: #ebdbb2;
   text-decoration: none;
-  font-weight: bold;
   width: 8em;
   box-shadow: 8px 8px rgba(29, 32, 33, 0.5);
   padding: 0.2em;
@@ -160,7 +159,7 @@ input {
     background: none;
     width: 5px;
     font: inherit;
-    font-weight: bold;
+    font-weight: inherit;
     text-align: center;
     outline: none;
     border: none;
