@@ -28,7 +28,7 @@ p {
       margin: 0;
 }
 p span {
-      color: #b8bb26;
+      color: #98971a;
 }
 
 p #cursor {
@@ -155,13 +155,9 @@ h3::after {
   background-color: #d65d0e;
 }
 
-#time {
-  color: #8ec07c;
-}
-
 input {
     background: none;
-    width: 5px;
+    width: 16px;
     font: inherit;
     font-weight: inherit;
     text-align: center;
