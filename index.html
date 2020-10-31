@@ -71,7 +71,22 @@
 	</nav>
 	<br>
 	<br>
-	<p><span> fra@hyperversum ~ </span></p>
+
+	<script>
+		document.onreadystatechange = () => {
+			const date = new Date()
+			document.getElementById("time").innerText = `${date.toString().replace(/ GMT.*/, "")}`
+			document.querySelector("input").onkeydown = (e) => {
+				if (e.key === 'Enter') searchDDG(document.getElementById('ddginput').value)
+			}
+		}
+		setInterval(() => {
+			const date = new Date()
+			document.getElementById("time").innerText = `${date.toString().replace(/ GMT.*/, "")}`
+		}, 1000)
+	</script>
+
+	<p><span> [fra] <span id="time"></span> ~ </span></p>
 	<form method="get" action="https://duckduckgo.com/?q=">
 		<!-- Note that " " is NOT a normal space -->
 		<p><span>❯</span><input type="text" name="q" spellcheck="false" placeholder=" " autofocus><span id="cursor"> </span></p>

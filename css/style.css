@@ -155,6 +155,10 @@ h3::after {
   background-color: #d65d0e;
 }
 
+#time {
+  color: #8ec07c;
+}
+
 input {
     background: none;
     width: 5px;
