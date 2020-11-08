@@ -74,9 +74,6 @@
 		document.onreadystatechange = () => {
 			const date = new Date()
 			document.getElementById("time").innerText = `${date.toString().replace(/ GMT.*/, "")}`
-			document.querySelector("input").onkeydown = (e) => {
-				if (e.key === 'Enter') searchDDG(document.getElementById('ddginput').value)
-			}
 		}
 		setInterval(() => {
 			const date = new Date()

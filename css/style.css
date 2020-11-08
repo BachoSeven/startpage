@@ -1,11 +1,11 @@
 html {
       box-sizing: border-box;
-      align-items: center;
-      background-color: #1d2021;
       display: flex;
-      font: bold 19px monospace;
-      height: 100%;
+      align-items: center;
       justify-content: center;
+      background-color: #1d2021;
+      font: bold 18px monospace;
+      height: 100%;
 }
 
 *, *:before, *:after {
