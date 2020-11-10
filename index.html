@@ -73,11 +73,11 @@
 	<script>
 		document.onreadystatechange = () => {
 			const date = new Date()
-			document.getElementById("time").innerText = `${date.toString().replace(/ GMT.*/, "")}`
+			document.getElementById("time").innerText = `${date.toTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/ GMT.*/, "")}`
 		}
 		setInterval(() => {
 			const date = new Date()
-			document.getElementById("time").innerText = `${date.toString().replace(/ GMT.*/, "")}`
+			document.getElementById("time").innerText = `${date.toTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/ GMT.*/, "")}`
 		}, 1000)
 	</script>
 
