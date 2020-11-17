@@ -71,19 +71,24 @@
 	</ul>
 	</nav>
 	<script>
-		document.onreadystatechange = () => {
-			const date = new Date()
+		document.onreadystatechange = () => { // show a smol date indicator
+	 		const date = new Date()
 			document.getElementById("time").innerText = `${date.toTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/ GMT.*/, "")}`
 		}
-		setInterval(() => {
+		setInterval(() => { // update indicator every second
 			const date = new Date()
 			document.getElementById("time").innerText = `${date.toTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/ GMT.*/, "")}`
 		}, 1000)
+		document.addEventListener("keydown", event => {
+			if (event.keyCode == 32) { // space to focus search
+				document.getElementById("q").focus();
+			}
+		});
 	</script>
 
 	<form method="get" action="https://duckduckgo.com/?q=">
 		<!-- Note that " " is NOT a normal space -->
-		<p><span>❯</span><input type="text" name="q" spellcheck="false" placeholder=" " autofocus><span id="cursor"> </span></p>
+		<p><span>❯</span><input type="text" id="q" spellcheck="false" placeholder=" " autofocus><span id="cursor"> </span></p>
 	</form>
 </body>
 </html>
