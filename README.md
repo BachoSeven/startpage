@@ -13,7 +13,7 @@ I use Vomnibar for most searches (my own bangs > duckduckgo's), but I have added
 
 A possibly outdated preview:
 
-![](startpage.gif)
+![](media/startpage.gif)
 
 ## credits
 
