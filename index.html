@@ -80,7 +80,7 @@
 			document.getElementById("time").innerText = `${date.toTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/ GMT.*/, "")}`
 		}, 1000)
 		document.addEventListener("keydown", event => {
-			if (event.keyCode == 32) { // space to focus search
+			if (event.code == 'Space') { // space to focus search
 				document.getElementById("q").focus();
 			}
 		});
