@@ -27,8 +27,10 @@ function search(query) {
 
 sinput = document.getElementById('q');
 // Typing (in Insert mode, when using Vimium) immediately focuses search bar
-document.addEventListener('keydown', event => {
+document.addEventListener('keyup', event => {
+	if (event.code == 'Space') {
 		sinput.focus();
+	}
 });
 // Enter accepts the search
 if (!!sinput) {
