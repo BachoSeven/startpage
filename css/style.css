@@ -169,12 +169,14 @@ h3::after {
 
 input {
 	background: none;
+	color: inherit;
 	width: 15px;
 	font: inherit;
 	text-align: center;
 	outline: none;
 	border: none;
 	border-radius: 0;
+	transition: .1s; /* uwu */
 }
 textarea:focus,
 input:focus {
