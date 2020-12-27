@@ -34,7 +34,7 @@ function search(query) {
 
 sinput = document.getElementById('q');
 // Typing (in Insert mode, when using Vimium) immediately focuses search bar
-document.addEventListener('keyup', event => {
+document.addEventListener('keydown', event => {
 	if (event.code == 'Space') {
 		sinput.focus();
 	}
