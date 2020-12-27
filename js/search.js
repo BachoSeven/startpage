@@ -20,6 +20,7 @@ function search(query) {
 			window.open(
 				'http://93.174.95.27/search.php?req=' +
 				query.replace(' ', '%20'), '_self');
+		break;
 		case 'r':
 			query = query.substr(2);
 			window.open(
