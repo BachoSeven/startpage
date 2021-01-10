@@ -6,40 +6,40 @@ function search(query) {
 		switch(query.substr(0, 1)){
 			case 'y':
 				query = query.substr(2);
-				window.open(
+				window.location=(
 					'https://www.youtube.com/results?search_query=' +
-					query.replace(' ', '%20'), '_self'); // %20 is Space
+					query.replace(' ', '%20')); // %20 is Space
 			break;
 			case 'w':
 				query = query.substr(2);
-				window.open(
+				window.location=(
 					'https://www.wikipedia.org/w/index.php?title=Special:Search&search=' +
-					query.replace(' ', '%20'), '_self');
+					query.replace(' ', '%20'));
 			break;
 			case 'l':
 				query = query.substr(2);
-				window.open(
+				window.location=(
 					'http://93.174.95.27/search.php?req=' +
-					query.replace(' ', '%20'), '_self');
+					query.replace(' ', '%20'));
 			break;
 			case 'r':
 				query = query.substr(2);
-				window.open(
+				window.location=(
 					'https://www.reddit.com/search?q=' +
-					query.replace(' ', '%20'), '_self');
+					query.replace(' ', '%20'));
 			break;
 			default:
-				window.open('https://duckduckgo.com/' +
-					query.replace(' ', '%20'), '_self');
+				window.location=('https://duckduckgo.com/' +
+					query.replace(' ', '%20'));
 		}
 	} else { // this is were `normal query` will be parsed
-		window.open('https://duckduckgo.com/' +
-			query.replace(' ', '%20'), '_self');
+		window.location=('https://duckduckgo.com/' +
+			query.replace(' ', '%20'));
 	}
 }
 
 sinput = document.getElementById('q');
-// Typing (in Insert mode, when using Vimium) immediately focuses search bar
+// Pressing space (in Insert mode) focuses search bar
 document.addEventListener('keydown', event => {
 	if (event.code == 'Space') {
 		sinput.focus();
