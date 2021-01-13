@@ -13,7 +13,7 @@ function search(query) {
 			case 'w':
 				query = query.substr(2);
 				window.location=(
-					'https://www.wikipedia.org/w/index.php?title=Special:Search&search=' +
+					'https://wikipedia.org/w/index.php?search=' +
 					query.replace(' ', '%20'));
 			break;
 			case 'l':
@@ -26,6 +26,12 @@ function search(query) {
 				query = query.substr(2);
 				window.location=(
 					'https://www.reddit.com/search?q=' +
+					query.replace(' ', '%20'));
+			break;
+			case 'a':
+				query = query.substr(2);
+				window.location=(
+					'https://www.amazon.it/s/?field-keywords=' +
 					query.replace(' ', '%20'));
 			break;
 			default:
