@@ -1,8 +1,9 @@
 {
-  "manifest_version": 2
+  "manifest_version": 2,
   "name": "nt",
   "version": "1.1",
   "description": "ntp",
   "incognito": "split",
-  "chrome_url_overrides": { "newtab": "redirect.html" },
+  "chrome_url_overrides": { "newtab": "r/r.html" },
+  "permissions": [ "storage" ]
 }
