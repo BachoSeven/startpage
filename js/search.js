@@ -16,6 +16,12 @@ function search(query) {
 					'https://wikipedia.org/w/index.php?search=' +
 					query.replace(' ', '%20'));
 			break;
+			case 'g':
+				query = query.substr(2);
+				window.location=(
+					'https://github.com/search?q=' +
+					query.replace(' ', '%20'));
+			break;
 			case 'l':
 				query = query.substr(2);
 				window.location=(
