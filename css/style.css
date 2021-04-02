@@ -15,9 +15,7 @@ body {
 	background-color: #32302f;
 	border-radius: 14px;
 	box-shadow: 0px 0px 5px 3px #16182077;
-	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	min-height: 30ch;
 	min-width: 20ww;
 	padding: 2em;
@@ -32,8 +30,8 @@ p span {
 
 p #logo {
 	color: #60c0d0;
-	font-size: 28px;
 	vertical-align:-3px;
+	font-size: 28px;
 }
 
 p #cursor {
@@ -109,7 +107,7 @@ li:last-child::after {
 
 h3 {
 	position: relative;
-	color: #32302f;
+	color: #282828;
 }
 h3::before, h3::after {
 position: absolute;
@@ -168,7 +166,7 @@ h3::after {
 
 input {
 	background: none;
-	color: #323334;
+	color: #32302f;
 	width: 15px;
 	font: inherit;
 	text-align: center;
