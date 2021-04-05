@@ -34,8 +34,8 @@ function search(q) {
 			case 'r':
 				q = q.substr(2);
 				window.location=(
-					'https://www.reddit.com/search?q=' +
-					q.replace(' ', '%20'));
+					'https://www.reddit.com/r/' +
+					q.replace(' ', ''));
 			break;
 			case 'a':
 				q = q.substr(2);
