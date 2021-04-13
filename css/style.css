@@ -60,13 +60,6 @@ ul {
 	padding: 0;
 }
 
-nav {
-	column-gap: 2em;
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	padding: 1.5em 0;
-}
-
 .tree > .all {
 	margin: 0;
 	padding-left: 1rem;
@@ -167,7 +160,7 @@ h3::after {
 input {
 	background: none;
 	color: #32302f;
-	width: 15px;
+	width: 17px;
 	font: inherit;
 	text-align: center;
 	outline: none;
