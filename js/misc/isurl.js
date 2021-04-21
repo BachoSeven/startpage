@@ -1,4 +1,4 @@
-// First Method
+// First Method (~YAY)
 var inputElement = doc.createElement('input');
 inputElement.type = 'url'; // this is important
 // inputElement.value = url;
@@ -6,7 +6,7 @@ if (!inputElement.checkValidity()) {
     throw new TypeError('Invalid URL');
 }
 
-// Second Method
+// Second Method (NAY)
 function validURL(str) {
 	  var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
 		      '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
@@ -17,7 +17,7 @@ function validURL(str) {
 	  return !!pattern.test(str);
 }
 
-// Third Method (Vimium)
+// Third Method (Vimium) [includes guessing protocol, chrome:// pages, ...]
   // usage:
   if (isUrl(q)) {
       window.location=createFullUrl(q);
