@@ -145,6 +145,10 @@ h3::after {
 	background-color: #458588;
 }
 
+.self {
+	background-color: #d4be98;
+}
+
 .social {
 	background-color: #b16286;
 }
