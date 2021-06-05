@@ -56,9 +56,9 @@ function search(q) {
 i = document.getElementById('q');
 // Pressing space (in Insert mode) focuses search bar
 document.addEventListener('keydown', event => {
-	// if (event.code == 'Space') {
+	if (event.code == 'Space') {
 		i.focus();
-	// }
+	}
 });
 // Enter accepts the search
 if (!!i) {
