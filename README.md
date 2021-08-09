@@ -7,7 +7,7 @@
 ```
 ![](media/stpg-new.png)
 
-A simple html startpage and [new tab](https://chrome.google.com/webstore/detail/change-new-tab/mocklpfdimiadpbgamlgehpgpodggahe "new tab extension").
+A simple html startpage and [new tab](ext "custom new tab extension").
 
 ## motivation
 
