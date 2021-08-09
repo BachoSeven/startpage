@@ -1,7 +1,5 @@
 (function() {
-  var docReady;
-
-  docReady = function(f) {
+  var docReady = function(f) {
     if (document.readyState === "loading") {
       return window.addEventListener("DOMContentLoaded", f);
     } else {
