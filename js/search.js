@@ -44,11 +44,11 @@ function search(i) {
 					q.replace(' ', '%20'));
 			break;
 			default:
-				window.location=('https://duckduckgo.com/' +
+				window.location=('http://192.168.1.107:8888/search?q=' +
 					q.replace(' ', '%20'));
 		}
 	} else { // this is were `normal q` will be parsed
-		window.location=('https://duckduckgo.com/' +
+		window.location=('http://192.168.1.107:8888/search?q=' +
 			q.replace(' ', '%20'));
 	}
 }
