@@ -1,6 +1,6 @@
 // Implements a simple search bar with custom bangs
 
-function search(q) {
+function search(i) {
 	var q = i.value;
 	q = q.replace(/^[ ]/g,'') // Remove leading spaces
 	if (i.checkValidity()) { // If query is an URL, go to it.
