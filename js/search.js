@@ -28,7 +28,7 @@ function search(i) {
 			case 'l':
 				q = q.substr(2);
 				window.location=(
-					'http://93.174.95.27/search.php?req=' +
+					'http://libgen.rs/search.php?req=' +
 					q.replace(' ', '%20'));
 			break;
 			case 'r':
