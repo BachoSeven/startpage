@@ -21,6 +21,7 @@
     --link-shadow: 235, 219, 178;
     --body-shadow: 168, 153, 132;
     --text: #3c3836;
+    --link-text: #7c6f64;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,6 +48,7 @@
         --body-shadow: 22, 24, 32;
         --link-shadow: 29, 32, 33;
         --text: var(--bg);
+        --link-text: var(--gray);
     }
 }
 
@@ -172,7 +174,7 @@ h3::after {
 
 .linksbox {
 	text-align: center;
-	color: var(--gray);
+	color: var(--link-text);
 	text-decoration: none;
 	width: 8em;
     box-shadow: 5px 5px 3px rgba(var(--link-shadow), 0.7);
