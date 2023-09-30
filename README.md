@@ -5,9 +5,12 @@
 └─┘ ┴ ┴ ┴┴└─ ┴ ┴  ┴ ┴└─┘└─┘
 
 ```
-![](media/stpg-new.png)
+![](media/new-light.png)
+![](media/new-dark.png)
 
 A simple html startpage and [new tab](ext "custom new tab extension").
+
+> Now with automatic light/dark themes!
 
 ## motivation
 
